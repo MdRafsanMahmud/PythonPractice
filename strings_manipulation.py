@@ -8,13 +8,13 @@ last_name = "Mahmud"
 full_name = first_name + " " + last_name
 
 #  Print out the full_name.
-print(full_name)
+print(f"Full Name: ",{full_name})
 
 # Print out the length of full_name using the len()function.
 print("Length of fullname:",len(full_name))
 
 # Print out the full_name in all uppercase letters.
-print(full_name.upper())
+print("Uppercase:",full_name.upper())
 
 # Print out the full_name in all lowercase letters.
-print(full_name.lower())
+print("Lowercase:",full_name.lower())
