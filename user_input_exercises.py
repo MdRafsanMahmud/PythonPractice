@@ -76,8 +76,8 @@ print(f"Division: {division}")
 # Develop a program that asks for a number of days, converts it into an integer,
 # then calculates and prints the equivalent number in hours.
 #
-# num_of_days = int(input("Please enter the number of days: "))
-# print(f"{num_of_days} days is equivalent to {num_of_days * 24} hours:")
+num_of_days = int(input("Please enter the number of days: "))
+print(f"{num_of_days} days is equivalent to {num_of_days * 24} hours:")
 
 
 # 10. Mad Libs
