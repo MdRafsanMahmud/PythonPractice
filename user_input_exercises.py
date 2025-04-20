@@ -62,22 +62,25 @@ print(f"Your are {user_age} old and Your age in dog years is: {dogs_years}")
 
 first_value = float(input("Enter first value: "))
 second_value = float(input("Enter second value: "))
-addition = first_value + second_value
-subtraction = first_value - second_value
-multiplication = first_value * second_value
-division = first_value / second_value
-
-print(f"Addition: {addition}")
-print(f"Subtraction: {subtraction}")
-print(f"Multiplication: {multiplication}")
-print(f"Division: {division}")
+operation = input("Enter operation: (+),(-),(*),(/): ")
+if operation == "+":
+    result = first_value + second_value
+elif operation == "-":
+    result = first_value - second_value
+elif operation == "*":
+    result = first_value * second_value
+elif operation == "/":
+    result = first_value / second_value
+else:
+    print("Invalid operation")
+print(f"Result: {result}")
 
 # 9. Days to Hours
 # Develop a program that asks for a number of days, converts it into an integer,
 # then calculates and prints the equivalent number in hours.
-#
-# num_of_days = int(input("Please enter the number of days: "))
-# print(f"{num_of_days} days is equivalent to {num_of_days * 24} hours:")
+
+num_of_days = int(input("Please enter the number of days: "))
+print(f"{num_of_days} days is equivalent to {num_of_days * 24} hours:")
 
 
 # 10. Mad Libs
