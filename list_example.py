@@ -43,4 +43,12 @@ try:
 except IndexError:
     print(f"There is no item at index {index_to_access}.")
 
+# 5. Modifying the quantity of an item in the nested grocery list
+grocery_list = [
+    ['milk', 1],
+    ['eggs', 2],
+    ['bread', 3],
+    ['rice', 4]
+]
+print(f"Grocery List: {grocery_list}")
 
